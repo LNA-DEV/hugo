@@ -172,4 +172,6 @@ require (
 	software.sslmate.com/src/go-pkcs12 v0.2.0 // indirect
 )
 
-go 1.23
+replace github.com/bep/imagemeta => ../imagemeta
+
+go 1.23.0
